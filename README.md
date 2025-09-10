@@ -2,7 +2,7 @@
 Lancaster University CS dissertation
 
 
-##Abstract:
+Abstract:
 
 One in eight women will develop some form breast cancer during their lifetime in the
 UK. Due to the advancements mammography technology, the mortality of this disease was
