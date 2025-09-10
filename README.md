@@ -58,11 +58,14 @@ the trade-off between precision and recall. It is better to give false positives
 is actually cancer there. For this reason, this change was very beneficial, as it increased the recall in every class except the overly-populated BIRADS 1, while barely decreasing the precision.
 
 Before and after difference:
-Class 0: Precision +0.0394, Recall -0.0314
-Class 1: Precision -0.0207, Recall +0.1314
-Class 2: Precision -0.0137, Recall +0.0376
-Class 3: Precision -0.0099, Recall +0.0455
-Class 4: Precision -0.0277, Recall +0.0652
+\begin{itemize}
+  \item : Class 0: Precision +0.0394, Recall -0.0314
+  \item :Class 1: Precision -0.0207, Recall +0.1314
+  \item :  Class 2: Precision -0.0137, Recall +0.0376
+  \item :Class 3: Precision -0.0099, Recall +0.0455
+  \item :Class 4: Precision -0.0277, Recall +0.0652
+\end{itemize}
+
 <img width="366" height="405" alt="Screenshot 2025-09-10 at 17 41 36" src="https://github.com/user-attachments/assets/6b42428c-1c16-4486-8bce-27194bab8a66" />
 
 This table shows, that the bottleneck in this research was the dataset. When the cancer was visible in only 1 breast and the other was healty, it would categorise both of them equall to the biggest score per case,
