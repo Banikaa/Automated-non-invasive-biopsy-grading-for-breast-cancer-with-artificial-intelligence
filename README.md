@@ -58,13 +58,11 @@ the trade-off between precision and recall. It is better to give false positives
 is actually cancer there. For this reason, this change was very beneficial, as it increased the recall in every class except the overly-populated BIRADS 1, while barely decreasing the precision.
 
 Before and after difference:
-\begin{itemize}
-  \item Class 0: Precision +0.0394, Recall -0.0314
-  \item Class 1: Precision -0.0207, Recall +0.1314
-  \item Class 2: Precision -0.0137, Recall +0.0376
-  \item Class 3: Precision -0.0099, Recall +0.0455
-  \item Class 4: Precision -0.0277, Recall +0.0652
-\end{itemize}
+1. Class 0: Precision +0.0394, Recall -0.0314
+2. Class 1: Precision -0.0207, Recall +0.1314
+3. Class 2: Precision -0.0137, Recall +0.0376
+4. Class 3: Precision -0.0099, Recall +0.0455
+5. Class 4: Precision -0.0277, Recall +0.0652
 
 <img width="366" height="405" alt="Screenshot 2025-09-10 at 17 41 36" src="https://github.com/user-attachments/assets/6b42428c-1c16-4486-8bce-27194bab8a66" />
 
